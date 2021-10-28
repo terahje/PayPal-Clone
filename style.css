@@ -129,6 +129,38 @@ html {
   color: #262626;
 }
 
+.nav-dropdown {
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(to right, #066399, #2f8fdf, #066399);
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  z-index: 100;
+  padding: 0 30rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-dropdown-item {
+  width: 25rem;
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-dropdown-link-1 {
+  font-size: 1.6rem;
+  color: var(--white-color);
+}
+.nav-dropdown-link-2 {
+  font-size: 1.3rem;
+  color: var(--white-color);
+}
+
 .banner {
   width: 100%;
   position: absolute;
