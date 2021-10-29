@@ -27,14 +27,14 @@ document.querySelectorAll('.signup').forEach(signupBtn => {
 // Navigation
 const dropdownItems = document.querySelectorAll('.dropdown-hover')
 
-if(window.innerWidth < 1000){
+if(window.innerWidth < 1000) {
     const menuIcon = document.querySelector('.menu')
     const navbar = document.querySelector('.navbar')
     
     menuIcon.addEventListener('click', () => {
         navbar.classList.toggle('change')
 
-        if(!navbar.classList.contains('change')){
+        if(!navbar.classList.contains('change')) {
             document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
                 dropdown.style.left = '-20rem'
             })
@@ -59,8 +59,6 @@ if(window.innerWidth < 1000){
             document.querySelector('.navbar-wrapper').style.background = 'linear-gradient(to right, #066399, #2f8fdf, #066399)'
             dropdownItem.firstElementChild.firstElementChild.style.transform = 'rotate(180deg)'
         })
-    })
-    dropdownItems.forEach(dropdownItem => {
         dropdownItem.addEventListener('mouseout', () => {
             dropdownItem.lastElementChild.style.cssText = 'opacity: 0; visibility: hidden'
             document.querySelector('.navbar-wrapper').style.background = 'none'
@@ -68,6 +66,12 @@ if(window.innerWidth < 1000){
         })
     })
 }
+
+window.addEventListener('resize', () => {
+    window.location.reload()
+})
+
+// End of Navigation
 
 
 
