@@ -2,7 +2,7 @@
 
 ## Description
 
-The 10th project from a Udemy course called 10 Mega Responsive Websites. This project goes through the process of making a site like PayPal. It was interesting how to use Js to implement a hover effect for the navigation. It also utilizes Js to navigate from the single page to the login and signup page. It toke more work to make responsive than the other projects, but the process was made easier with how flexbox was utilized throughout the project.
+This project goes through the process of making a site like PayPal. It was interesting how to use Js to implement a hover effect for the navigation. It also utilizes Js to navigate from the single page to the login and signup page. It took more work to make responsive than the other projects, but the process is much easier with how flexbox is utilized throughout the project.
 
 [Link to deployed Website](https://terahje.github.io/PayPal-Clone/)
 
